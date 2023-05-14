@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon site d'hôpital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  background-color:rgb(4, 86, 97);
+  color: #fff;
+  padding:  0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1{
+    font-size: 100px;
+}
+.h1header{
+    font-size: 100px;    
+
+}
+.logo{
+width : 100px;
+cursor: pointer;
+ 
+}
+
+    
+
+
+
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;  
+}
+
+nav ul li {
+  margin-right: 20px;
+  color: black;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  background-image: url(https://t4.ftcdn.net/jpg/05/34/97/61/240_F_534976192_DEm5v6kjUT5DStG5io1ePdCmi4pwHNX9.jpg) ;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+  margin-bottom: 20px;
+}
+.p{
+    font-size : 20Px ;
+}
+section h2 {
+  color : rgb(73, 143, 158);
+  font-size: 50px;
+}
+h2{
+  color : rgb(73, 143, 158);
+  font-size: 50px;
+}
+
+section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: rgb(4, 86, 97);
+  color:  black;
+  padding: 20px;
+  text-align: center;
+}
+footer div a{
+    text-decoration: none;
+}
+#imagesid{
+    position: relative;
+    top: 100px;
+    width: 900px;
+    height: 600px;
+    margin-bottom: 120px;
+    margin-left: 180px;
+}
+#butim1{
+
+    position: absolute;
+    top: 20px;
+    left: 40px;
+
+}
+#butim2{
+
+    position: absolute;
+    width: min-content;
+    top: 20px;
+    right: 40px;
+}  
+#butim3
+{
+
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+#butim4{
+
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+.header {
+    background-image: url(https://img.freepik.com/photos-premium/jeune-medecin-stethoscope-dans-hall-hopital-illustration-medecine_488220-24350.jpg?w=900) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+  padding: 30px;
+  text-align: center;
+
+}
+.header h1 {
+  font-size: 50px;
+}
+
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  color: #fff;
+  margin: 10px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.social-media a:hover {
+  transform: scale(1.2);
+}
+.e1{
+    display: inline-block;
+}
+ section img {
+  opacity: 0.5;
+}
+
+ section img:hover {
+  opacity: 1.0;
+}
+footer div image{
+  width: 0%;
+
+}
+h1{
+    color: black;
+    larg
+}
+a{
+    color: black;
+}
+</style>
+<body>
+    <div class="header">
+        <h1 class="h1header">Welcome</h1>
+        <p> Chose the service that you want for a better apointment</p>
+      </div>
+  <header>
+   
+   <image src="logo.PNG"  class="logo" ></image>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Notre mission</h2>
+      <p class="p">Nous nous engageons à fournirhzkdsqhbiuzhsqbcjbksdhkdcjnxsqw;z;dnskezsfjkjxcbvfdsiejzds,qlzoidjjswco les meilleurs soins de santé à nos patients en utilisant les dernières technologies et en suivant les meilleures pratiques médicales.</p>
+    </section>
+
+      <h2>Nos services</h2>
+      <section id="imagesid">
+        <div id="butim1">
+            <a href="https://www.emsi.ma/ingenierie-informatique-et-reseaux/" >
+            <img src="https://www.chmouscron.be/sites/default/files/styles/banner_page/public/2021-12/AdobeStock_233755218.jpeg?h=711b3ee1&itok=BuA1IHCF" alt=" hh" height="300px" 
+                class="image" title=" pole  Cardiologie ">
+                 </a>
+
+        </div>
+            <div id="butim2">
+              <a href="https://www.emsi.ma/ingenierie-informatique-et-reseaux/" ><img src="https://img.passeportsante.net/1200x675/2021-05-03/i103776-ophtalmologie.webp" alt=" hh" height="300px" 
+                  class="image" title=" pole  ophtalmologie ">
+                  </a> 
+                </div>
+        
+            <div id="butim3">
+             <a href="https://www.emsi.ma/ingenierie-informatique-et-reseaux/" >
+
+              <img src="https://www.ch-arpajon.fr/sites/ch-arpajon/files/styles/contenu_slider/public/content/images/hopital-159_0.jpg?itok=k6uBEkQ1" alt=" hh" height="300px" 
+            class="image" title="Pôle Médecine - Femme Mère Enfant. Maternité-Gynécologie ">
+             </a>
+            </div>
+        
+            <div id="butim4">
+          <a href="https://www.emsi.ma/ingenierie-informatique-et-reseaux/" >       <img src="https://scontent-lis1-1.xx.fbcdn.net/v/t39.30808-6/293294350_444153511055232_3469446303715417522_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEMUMWPt70eobzFInVL1_VciqeqixN4m9iKp6qLE3ib2HKYUiI5tdojYJv2tQzoOf5sPS1UFa4mEjx1XUJmct9n&_nc_ohc=2f6ywOSYgVwAX_WMDS3&_nc_ht=scontent-lis1-1.xx&oh=00_AfCkmj6lajF-mnyEBRucJ0olh7IpxOryw8_NkwxmBuGrjw&oe=6460F4EC" alt=" hh" height="300px" 
+            class="image" title="Bloc service des animaux">
+            </a>
+
+            </div>
+    
+    </section>
+    <section>
+      <h2>Notre équipe</h2>
+      <p class="p">Nous avons une équipe de médecins et de professionnels de la santé hautement qualifiés qui travaillent ensemble pour fournir des soins de qualité à nos patients.</p>
+    </section>
+  </main>
+  <footer>
+        <div class="e1">
+            <a href="https://www.facebook.com/emsi.ma/"  target="" >
+                <label for="about us ">facebook</label>
+               </a>  
+               /
+               <a href="https://www.facebook.com/emsi.ma/"  target="" >
+                <label for="about us ">twitter</label>
+               </a> 
+                /
+               <a href="https://www.facebook.com/emsi.ma/"  target="" >
+                <label for="about us ">youtube</label>
+               </a>
+        </div>
+        
+  </footer>
+  
+</body>
+</html>
