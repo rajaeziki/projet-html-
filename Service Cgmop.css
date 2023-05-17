@@ -1,0 +1,88 @@
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/05/34/97/61/240_F_534976192_DEm5v6kjUT5DStG5io1ePdCmi4pwHNX9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+header{
+    background-image: url("https://img.freepik.com/photos-premium/technologie-medicale-reseau-medical_488220-37444.jpg?w=900");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    margin: -20px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    position: relative;
+
+    
+}
+header ul{
+    float: right;
+    font-size: large;
+}
+header li{
+    list-style-type: none;
+    margin-right: 10px;
+    align-items: center;
+    display: inline-block;
+    
+}
+form{
+    text-align: center;
+}
+form input{
+    margin: 10px;
+    text-align: center;
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 1px solid blueviolet;
+}
+
+div{
+    text-align: center;
+}
+footer{
+    background-color: blueviolet;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: -20px !important;
+}
+footer h3{
+    display: flex;
+    justify-content:space-around;
+   
+
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+header a{
+    color: black;
+    border: 2px solid blueviolet;
+
+    text-decoration: none;
+}
+a:hover{
+    text-shadow: 2px black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+img{
+    height: 115px;
+    float: left;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+}
